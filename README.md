@@ -10,6 +10,13 @@ source <(curl -s https://raw.githubusercontent.com/ryzwan29/0g-storage-node/refs
 source <(curl -s https://raw.githubusercontent.com/ryzwan29/0g-storage-node/refs/heads/main/check_block.sh)
 ```
 
+- How to View 0G Labs Storage Node Logs
+```
+sudo apt install ccze -y
+```
+```
+tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d) | ccze -A
+```
 ## Overview
 
 0G Storage is a decentralized data storage system designed to address the challenges of high-throughput and low-latency data storage and retrieval, particularly for areas such as AI. 
