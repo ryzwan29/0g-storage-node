@@ -33,7 +33,7 @@
 
 # List of nodes to bootstrap UDP discovery. Note, `network_enr_address` should be
 # configured as well to enable UDP discovery.
-# network_boot_nodes = []
+network_boot_nodes = ["/ip4/47.251.117.133/udp/1234/p2p/16Uiu2HAmTVDGNhkHD98zDnJxQWu3i1FL1aFYeh9wiQTNu4pDCgps","/ip4/47.76.61.226/udp/1234/p2p/16Uiu2HAm2k6ua2mGgvZ8rTMV8GhpW71aVzkQWy7D37TTDuLCpgmX","/ip4/47.251.79.83/udp/1234/p2p/16Uiu2HAkvJYQABP1MdvfWfUZUzGLx1sBSDZ2AT92EFKcMCCPVawV", "/ip4/47.238.87.44/udp/1234/p2p/16Uiu2HAmFGsLoajQdEds6tJqsLX7Dg8bYd2HWR4SbpJUut4QXqCj", "/ip4/47.251.78.104/udp/1234/p2p/16Uiu2HAmSe9UWdHrqkn2mKh99b9DwYZZcea6krfidtU3e5tiHiwN", "/ip4/47.76.30.235/udp/1234/p2p/16Uiu2HAm5tCqwGtXJemZqBhJ9JoQxdDgkWYavfCziaqaAYkGDSfU"]
 
 # List of libp2p nodes to initially connect to.
 # network_libp2p_nodes = []
@@ -77,14 +77,14 @@
 #######################################################################
 
 # RPC endpoint to sync event logs on EVM compatible blockchain.
-# blockchain_rpc_endpoint = "http://127.0.0.1:8545"
+blockchain_rpc_endpoint = "https://evmrpc-testnet.0g.ai"
 
 # Flow contract address to sync event logs.
-# log_contract_address = ""
+log_contract_address = "0xbD75117F80b4E22698D0Cd7612d92BDb8eaff628"
 
 # Block number to sync event logs from blockchain. Generally, this is
 # the block number when flow contract deployed.
-# log_sync_start_block_number = 0
+log_sync_start_block_number = 326165
 
 # Number of blocks to confirm a transaction.
 # confirmation_block_count = 3
@@ -158,17 +158,17 @@
 #######################################################################
 
 # Mine contract address for PoRA.
-# mine_contract_address = ""
+mine_contract_address = "0x3A0d1d67497Ad770d6f72e7f4B8F0BAbaa2A649C"
 
 # Reward contract address for incentive.
-# reward_contract_address = ""
+reward_contract_address = "0xd3D4D91125D76112AE256327410Dd0414Ee08Cb4"
 
 # Miner key is used to sign blockchain transaction for incentive.
 # The value should be a hex string of length 64 without 0x prefix.
 #
 # Note, the corresponding address should have enough tokens to pay
 # transaction gas fee.
-# miner_key = ""
+miner_key = "YOUR_PRIVATE_KEY"
 
 # Period for querying mine context on chain (in seconds)
 #
