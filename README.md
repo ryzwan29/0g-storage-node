@@ -1,7 +1,13 @@
 # 0G Storage
-Quick Installation
+
+- Quick Installation
 ```
-https://raw.githubusercontent.com/ryzwan29/0g-storage-node/refs/heads/main/quick-installation.sh
+source <(curl -s https://raw.githubusercontent.com/ryzwan29/0g-storage-node/refs/heads/main/quick-installation.sh)
+```
+
+- How to Track Realtime 0G Storage Node Blocks, Peers, and Sync Speed
+```
+source <(curl -s https://raw.githubusercontent.com/ryzwan29/0g-storage-node/refs/heads/main/check_block.sh)
 ```
 
 ## Overview
