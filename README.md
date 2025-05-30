@@ -1,6 +1,9 @@
 # 0G Storage
 Quick Installation
-`https://raw.githubusercontent.com/ryzwan29/0g-storage-node/refs/heads/main/quick-installation.sh`
+```
+https://raw.githubusercontent.com/ryzwan29/0g-storage-node/refs/heads/main/quick-installation.sh
+```
+
 ## Overview
 
 0G Storage is a decentralized data storage system designed to address the challenges of high-throughput and low-latency data storage and retrieval, particularly for areas such as AI. 
